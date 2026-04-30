@@ -47,7 +47,7 @@
 //   return data.name === "jp"
 //  }));
 
-// findIndex() method  in js 
+// findIndex() method  in js
 // const myArr=  [12,33,4,5,75,3];
 // console.log(myArr.findIndex((data) =>{
 //  return data > 13;
@@ -58,21 +58,21 @@
 //   return  asts === "phone";
 // }));
 
-// findLast() Method in js 
+// findLast() Method in js
 //  const  myArr = [13,54,67,78,56,79,99];
 //   console.log(myArr.findLast((data)=>{
-//   return  data>79 ;  
+//   return  data>79 ;
 // }));
 
-// sort  method  in js 
+// sort  method  in js
 //  const myArr =  [2,4,1,6,3,9,7];
 //   console.log(myArr.sort());
 
-// reverse() method  in js  
+// reverse() method  in js
 //  const myArr =  [2,4,1,6,3,9,7];
 //   console.log(myArr.reverse());
 
-// tosorted() method  in js 
+// tosorted() method  in js
 //  const myArr =  [2,4,1,6,3,9,7];
 //    const  sorted = myArr.toSorted();
 //    console.log(myArr);
@@ -86,12 +86,12 @@
 // console.log(myNum);
 // console.log(numbers);
 
-// sorting object in  js 
-  
-// Assignment  answer 
+// sorting object in  js
+
+// Assignment  answer
 // --------------------------------*********************-----------------------*********************---------------------------
 // ---------*********************-----------------------*********************---------------------------**********-------------
- /* section 1 : Basics & Introduction
+/* section 1 : Basics & Introduction
 Q. what  is java script ? 
 ans : Java Script is  a high level   and  versetile  programming language . primarlly used for  dynamic web data show  in web browser.
 Q. List different ways to include JavaScript in an HTML file.
@@ -389,82 +389,162 @@ section 8 complite
 
  */
 
- 
-
-
-
-
-//Array Iterations  in js 
- //forEach() method in js 
+//Array Iterations  in js
+//forEach() method in js
 // const  myArr = [23,44,65,87,13,22,3];
 //     const  result =   myArr.forEach((num, index,array)=>{
 //      console.log(` ${num*2} , ${index} ,${array}` );
 //     });
- 
+
 //  const myData = ["name","age","rollNumber","location"];
 //       myData.forEach((nm,index,array)=>{
 //      console.log(`${nm} ,${index} ,${array}`);
-//       }); 
+//       });
 
 //   const myData = ["name","age","rollNumber","location"];
 //       myData.forEach(function data(value, index,array){
-//           console.log(`${value}, ${index}, ${array}`);     
+//           console.log(`${value}, ${index}, ${array}`);
 //       });
 
-//  map() method  in js 
+//  map() method  in js
 // const myArrj = [10,20,30,40,50];
 //    myArrj.map((value,index,array)=>{
 //       console.log(`${value *2},${index},${array}`);
 //    });
 
+// 29-04-2026
+// Section 9: Practical / Mini Tasks
 
+// Q. Create a simple calculator using JavaScript operators.
 
+//ans.
 
+//   function myCalculator(n1, operation,n2){
+//     if(operation === '+'){
+//       return n1+n2;
+//     }else if(operation === '-'){
+//       return  n1 - n2;
+//     }else if(operation === '*'){
+//      return n1 * n2 ;
+//     } else if (operation === '/'){
+//        return n1 / n2;
+//     }else {
+//         console.log("Enter valid  number!");
+//     }
+//   }
+
+//  console.log( myCalculator(10,"/",2));
+
+//  Q. Create a simple calculator using JavaScript operators.
+//Ans.
+
+// const studentResult = [
+//   {
+//     name: " prakash  singh",
+//     english: 78,
+//     biology: 70,
+//     math: 92,
+//     history: 89,
+//     physics: 87,
+//     chemistry: 68,
+//   },
+//   {
+//     name: "deepak kumar",
+//     english: 67,
+//     biology: 80,
+//     math: 32,
+//     history: 69,
+//     physics: 47,
+//     chemistry: 88,
+//   },
+//   {
+//     name: "ravi kumar",
+//     english: 88,
+//     biology: 70,
+//     math: 62,
+//     history: 98,
+//     physics: 77,
+//     chemistry: 68,
+//   },
+//   {
+//     name: "anita kumari",
+//     english: 77,
+//     biology: 70,
+//     math: 92,
+//     history: 89,
+//     physics: 87,
+//     chemistry: 68,
+//   },
+//   {
+//     name: "vikash  kumar",
+//     english: 65,
+//     biology: 80,
+//     math: 97,
+//     history: 76,
+//     physics: 67,
+//     chemistry: 48,
+//   },
+//   {
+//     name: "Akash kumar",
+//     english: 58,
+//     biology: 80,
+//     math: 72,
+//     history: 85,
+//     physics: 80,
+//     chemistry: 62,
+//   },
+// ];
+
+// console.log(studentResult);
+
+// Q . Write a program to search an element in an array.
+// ans.
+
+// const myArr = [12,32,34,54,64];
+// //  console.log(  myArr.indexOf(34));
+//  console.log(myArr.at(-2));
+
+// Q.  Create a function that takes an array and returns only even number
+//ans .
+
+// function myEvenNumber(array){
+//     return array.filter((num)=>{
+//        return num % 2 ==0 ;
+//     });
+
+// }
+
+//  const  myArray = [12,32,33,55,66,67,98];
+// console.log(myEvenNumber(myArray));
+
+// Bonus Questions
+//  Q. Explain the difference between primitive and non-primitive data types. 
+// ans. 1. primitive  data type  : primitive data type is  simple data store  in memory  if  reassign  the value
+// allocate new  momory   and  it is immutable .   
+// Non primitive   data type : Non primitive   data type  is store  large and 
+//  complex data  store in single  memory and  it is mutable  
+// Q. What is the difference between const array and normal array?
+// ans. 
+  // const   myArr =  [12,32,44,43,45,66];
+  //   myArr.push(17);
+  //   console.log(myArr);
+  //   myArr[1] = 99; 
+  //   console.log(myArr);
+  // myArr = [100,50];   // not  reassign 
+  //  console.log(myArr);
     
+  //   let userArray =  [12,32,44,43,45,66];
+  //   userArray.push(17);
+  //   console.log(userArray);
+  //   userArray[1] = 99; 
+  //   console.log(userArray);
+  //  userArray = [100,50];   //   reassign allowed 
+  //  console.log(userArray);
 
+  // Q. Write a program to reverse an array without using built-in methods.
+  // ans. 
 
-
-
-
-
-  
- 
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  const reverseArray = [12,43,54,33,55,66];
+     reverseArray.reverse();
+      console.log(reverseArray);
 

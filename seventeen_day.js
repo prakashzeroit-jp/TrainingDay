@@ -1,6 +1,6 @@
 // 09-05-2026
 // set  in js
-const mySet = new Set([" ravi", "deepak", "amit", "jp", "anjali", "jaya"]);
+// const mySet = new Set([" ravi", "deepak", "amit", "jp", "anjali", "jaya"]);
 //     console.log(mySet);
 // // set  method   in  js
 // mySet.add('himesh');
@@ -17,6 +17,8 @@ const mySet = new Set([" ravi", "deepak", "amit", "jp", "anjali", "jaya"]);
 //         text +=  value;
 //     }
 //  console.log(text);
+
+// const myName = require("./eighteen_day");
 
 // let text = "";
 // let result = mySet.forEach((value) => {
@@ -48,11 +50,11 @@ const mySet = new Set([" ravi", "deepak", "amit", "jp", "anjali", "jaya"]);
 // myMap.set("id", 123);
 //  console.log(myMap);
 
-let myMap = new Map([
-  ["name", "jp"],
-  ["age", 22],
-  ["id", 123],
-]);
+// let myMap = new Map([
+//   ["name", "jp"],
+//   ["age", 22],
+//   ["id", 123],
+// ]);
 
 // console.log(myMap);
 // myMap.get('name');
@@ -333,12 +335,37 @@ let myMap = new Map([
 // const b = [1, 2, 3];
 // console.log(a == b, a === b);
 
-let y = 30;
+// let y = 30;
 
-if (true) {
-  let y = 40;
+// if (true) {
+//   let y = 40;
 
-  console.log(y);
-}
+//   console.log(y);
+// }
 
-console.log(y);
+// console.log(y);
+
+//  const add = require("./eighteen_day");
+// const  eighteen_day =  require("./eighteen_day");
+
+//   // console.log("eighteen_day");
+//    add(12,3);
+
+// const  eighteen_day = require('./eighteen_day');
+
+// eighteen_day.myName("jpraksh");
+// eighteen_day.add(23,5);
+
+// const { myName, add,sub,mlt,div,exp } = require("./eighteen_day");
+// myName("ram");
+// add(13, 5);
+// sub(10,3);
+// mlt(12,5);
+// div(12,4);
+// exp(4,2);
+
+
+
+// const  {myObj,myFunction} =  require('./eighteen_day');
+//  console.log(myObj);
+//  myFunction("jp");

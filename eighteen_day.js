@@ -5,6 +5,8 @@
 //  console.log(a+b);
 // }
 
+const check = require("./hold_day/nineteen_day")
+
 // function  sub(a,b){
 //    console.log(a-b);
 // }
@@ -446,6 +448,7 @@
 // let x = 2;
 // console.log(x == "2");
 
-
+ const  checks = require('check');
+  check();
 
 

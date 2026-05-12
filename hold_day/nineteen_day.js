@@ -13,14 +13,14 @@
 
 // fetchData(hello);
 
-function fetchData() {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve("promise   resolve");
-      console.log("all  done....");
-    }, 2000);
-  });
-}
+// function fetchData() {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve("promise   resolve");
+//       console.log("all  done....");
+//     }, 2000);
+//   });
+// }
 
 // fetchData()
 //   .then((done) => {
@@ -107,9 +107,9 @@ function fetchData() {
 //     console.log("break  the   interval...");
 //   }
 // },1000);
-x=[1]
-y=[1]
-console.log(x==y);
+// x=[1]
+// y=[1]
+// console.log(x==y);
 // console.log([] === []);
 // let arr1;
 // let arr2 ;

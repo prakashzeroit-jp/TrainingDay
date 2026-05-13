@@ -522,15 +522,14 @@
 //   }
 // }
 
-
 // fetchUsers();
 
-//  simple   http  server  
-    //  const   http =   require('http');
-    //   http.createServer((req,res)=>{
-    //   res.writeHead(200,{'Content-Type': 'text/plain'});
-    //   res.end('hello  jpp');
-    //   }).listen(8000);
+//  simple   http  server
+//  const   http =   require('http');
+//   http.createServer((req,res)=>{
+//   res.writeHead(200,{'Content-Type': 'text/plain'});
+//   res.end('hello  jpp');
+//   }).listen(8000);
 
 //     const http = require('http');
 
@@ -541,7 +540,6 @@
 //   console.log('Server is running on http://localhost:5000');
 // });
 
-
 // const    http = require('http');
 
 // http.createServer((req,res)=>{
@@ -550,7 +548,6 @@
 // }).listen(5000,()=>{
 //     console.log('server start! view  it  at http://localhost:5000');
 // });
-
 
 // console.log("Start");
 
@@ -581,71 +578,52 @@
 //   res.writeHead(200,{'Content-Type': 'text/plain'});
 //   res.end('hello  jp  i am  from   server, ok  so finally   i  create  basic server  successfully!, congrats  jp 👍');
 
-
 // }).listen(8000,()=>{
 //    console.log('http server  port : http://localhost:8000');
 // });
 
+// this  is   part  of commonjs  module 
+// function add(a, b) {
+//   return a + b;
+// }
+
+// module.exports = add;
+
+// function add(a, b) {
+//   return a + b;
+// }
+
+// function  sub(a,b){
+//    return a-b;
+// }
+
+// module.exports = {
+//     add,sub
+// }
 
 
+// ES6   module  import  export  is  modern
+//  export function  add(a,b){
+//   return a+b;
+// }
+
+//  export  function  add(a,b){
+//   return a+b;
+// }
+//  export  function  sub(a,b){
+//   return a-b;
+// }
+//  export  function  mlt(a,b){
+//   return a*b;
+// }
+//  export  function  div(a,b){
+//   return a/b;
+// }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ export function  add(a,b){
+  return  a+ b ;
+}
 
 
 

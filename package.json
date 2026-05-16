@@ -1,0 +1,24 @@
+{
+  "name": "trainingday",
+  "version": "1.0.0",
+  "description": "\"this  is my training day in node.js\"",
+  "homepage": "https://github.com/prakashzeroit-jp/TrainingDay#readme",
+  "bugs": {
+    "url": "https://github.com/prakashzeroit-jp/TrainingDay/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakashzeroit-jp/TrainingDay.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "lodash": "^4.18.1"
+  }
+}

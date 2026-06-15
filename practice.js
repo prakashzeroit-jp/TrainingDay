@@ -411,13 +411,95 @@ function userFun3(callback) {
 //     console.log("Some error");
 //   });
 
-async function sayHello() {
-  return "sayHello function call...";
-}
+// async function sayHello() {
+//   return "sayHello function call...";
+// }
 
-async function hello() {
-  let res = await sayHello();
-  console.log(res);
-}
+// async function hello() {
+//   let res = await sayHello();
+//   console.log(res);
+// }
 
-hello();
+// hello();
+
+// const fs = require('fs');
+
+// // 2. Create a file named 'hello.txt' with content inside it
+// fs.writeFileSync('helloday.txt', 'Hello World!');
+
+// console.log('File created successfully!');
+
+// const fs = require('fs');
+// console.log('Before file read');
+// fs.readFile('myfiles.txt', 'utf8', (err, data) => {
+//   if (err) throw err;
+//   console.log('File contents:', data);
+// });
+// console.log('After file read');
+
+//basic http server create
+
+// const http = require('http');
+//  const PORT = 8000;
+// const server = http.createServer((req,res)=>{
+//   res.writeHead(200,{'Content-Type' : 'text/plain'});
+//   res.end('Hello  jp!');
+// });
+
+// server.listen(PORT,()=>{
+//     console.log(`Server run  at : http://localhost:${PORT}`);
+
+// });
+
+// const http = require("http");
+// const PORT = 3000;
+// const server = http.createServer((req, res) => {
+//   res.writeHead(200, { "Content-Type": "text/plain" });
+//   res.end("hello node.js=================");
+// });
+
+// server.listen(PORT, () => {
+//   console.log(`Server run at http://localhost:${PORT}`);
+// });
+
+// const buffer = Buffer.from('hell jp');
+
+// console.log(buffer);
+// console.log(buffer.toString());
+
+// buffer and stream
+
+// const buffer = Buffer.from('hello abc');
+
+// console.log(buffer);
+// console.log(buffer.toString());
+
+// const fs = require("fs");
+
+// const stream = fs.createWriteStream("myfiles.txt", "utf-8");
+
+// stream.on("data", (chunk) => {
+//   console.log(chunk);
+// });
+
+// const fs  =   require('fs');
+
+// const stream = fs.createWriteStream('okfiles.txt','utf-8');
+
+// stream.on('data',(chunk)=>{
+//  console.log(chunk);
+
+// });
+
+// const buffer = Buffer.from("Only JP");
+
+// console.log(buffer);
+// console.log(buffer.toString());
+
+// const fs = require("fs");
+
+// const stream = fs.createWriteStream("ppt.txt", "utf-8");
+
+// stream.on("data", (chunk) => {
+//   console.log(chunk);
+// });
